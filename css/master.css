@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+}
+.topnav {
+  position:relative;
+  top: 100vh;
+  height: 10vh;
+  background-color: orange;
+}
+.logo {
+  margin: 20px;
+  display: inline;
+}
+button {
+  font-family: monospace;
+  border-radius: 10px;
+  background-color: #ffb10078;
+  padding: 15px;
+  border: 0px;
+}
+ul {
+  padding-top: 5px;
+  float: right;
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+li {
+  padding: auto;
+  padding-left: 2vw;
+  display: inline;
+}
