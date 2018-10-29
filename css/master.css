@@ -3,7 +3,6 @@ body {
 }
 .topnav {
   position:relative;
-  top: 87vh;
   min-height: 12vh;
   background-color: #FF931E;
   width: 100%;
@@ -18,8 +17,8 @@ body {
 button {
   letter-spacing: 2px;
   font-weight: bold;
-  font-size: 1.2em;
-  font-family: Helvetica, sans-serif;
+  font-size: 1.7em;
+  font-family: Lowvetica;
   border-radius: 2px;
   background-color: #FF931E;
   padding: 0.7em 0.8em;
@@ -28,7 +27,7 @@ button {
   color: #1d1d1d;
 }
 button:hover {
-  box-shadow: 4px 5px 20px #222;
+  color: #808080;
 }
 ul {
   padding-top: 1vh;
@@ -41,4 +40,37 @@ ul {
 li {
   padding-left: 1vw;
   display: inline;
+}
+.aboutUs {
+  padding: 0px;
+  padding-top: 8px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-rows: 350px 350px 350px;
+  grid-gap: 8px;
+}
+#img-1 {
+  background-image: url('../img/conveniencePhoto.jpg');
+  background-repeat:space;
+  background-color: #FF931E;
+  background-blend-mode:luminosity;
+  background-size: cover;
+  background-position: 50% 85%;
+}
+.photoOverlay {
+  background-color: gray;
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.photoOverlay>h3 {
+  color: white;
+  font-family: Lowvetica;
+  margin: 0px;
+  font-size: 4em;
+  padding-top: 2vh;
+  padding-left: 70%;
 }
