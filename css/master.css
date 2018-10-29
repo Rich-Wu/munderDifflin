@@ -3,7 +3,7 @@ body {
 }
 .topnav {
   position:relative;
-  top: 100vh;
+  top: 87vh;
   min-height: 12vh;
   background-color: #FF931E;
   width: 100%;
@@ -13,16 +13,22 @@ body {
   margin: 2vh;
   margin-left: 50px;
   display: inline;
-  border: 2px solid white;
+  border: 2px solid #222;
 }
 button {
-  font-size: 1.1em;
-  font-family: sans-serif;
-  border-radius: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Helvetica, sans-serif;
+  border-radius: 2px;
   background-color: #FF931E;
-  padding: 0.7em;
+  padding: 0.7em 0.8em;
   border: 0px;
   height: 8vh;
+  color: #1d1d1d;
+}
+button:hover {
+  box-shadow: 4px 5px 20px #222;
 }
 ul {
   padding-top: 1vh;
@@ -30,9 +36,9 @@ ul {
   float: right;
   list-style-type: none;
   display: inline;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 li {
-  padding-left: 2vw;
+  padding-left: 1vw;
   display: inline;
 }
