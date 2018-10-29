@@ -4,29 +4,35 @@ body {
 .topnav {
   position:relative;
   top: 100vh;
-  height: 10vh;
-  background-color: orange;
+  min-height: 12vh;
+  background-color: #FF931E;
+  width: 100%;
 }
 .logo {
-  margin: 20px;
+  max-height: 8vh;
+  margin: 2vh;
+  margin-left: 50px;
   display: inline;
+  border: 2px solid white;
 }
 button {
-  font-family: monospace;
+  font-size: 1.1em;
+  font-family: sans-serif;
   border-radius: 10px;
-  background-color: #ffb10078;
-  padding: 15px;
+  background-color: #FF931E;
+  padding: 0.7em;
   border: 0px;
+  height: 8vh;
 }
 ul {
-  padding-top: 5px;
+  padding-top: 1vh;
+  padding-right: 4vw;
   float: right;
   list-style-type: none;
   display: inline;
   margin-right: 20px;
 }
 li {
-  padding: auto;
   padding-left: 2vw;
   display: inline;
 }
