@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/printer.css">
     <title>Munder Difflin Incorporated</title>
   </head>
   <body>
@@ -25,10 +25,27 @@
         <h2>Sound too good to be true?</h2>
       <hr id="line">
         <p style="margin-bottom: 35px;">Let's talk about how Munder Difflin can make your life easier</p>
-        <button id="customerTrigger">More Info</button>
+        <button class="blinking" id="customerTrigger">More Info</button>
       </div>
-      <div id="scrollPrompt">
-        <p><i class='fas fa-angle-double-down'></i> Scroll down for info <i class='fas fa-angle-double-down'></i></p>
+      <div class="printer-container">
+        <div class="printer-body">
+          <div class="printer-tray">
+            <div class="printer-tray-2">
+              <div class="printer-tray-lines">
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+          <div class="printer-controls">
+            <a href="#"><div class="printer-btn1 blinking">
+              <div class="printer-power"></div>
+            </div></a>
+            <div class="printer-btn2">
+            </div>
+            <div class="light"></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="aboutUs" id="aboutUs">
@@ -38,6 +55,9 @@
         <div class="imageRow" id='img-3'><div class="photoOverlay" id="overlay-3"><h3>Partnership</h3></div></div>
         <div class="imageRow" id='img-4'><div class="photoOverlay" id="overlay-4"><h3>Productivity</h3></div></div>
       </div>
+    </div>
+    <div id="scrollPrompt">
+      <p><i class='fas fa-angle-double-down'></i> Scroll down for info <i class='fas fa-angle-double-down'></i></p>
     </div>
   </body>
 </html>

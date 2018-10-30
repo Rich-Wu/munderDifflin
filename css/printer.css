@@ -1,8 +1,12 @@
+.printer-container{
+  height: 300px;
+  width: 300px;
+}
 .printer-body{
   position:absolute;
   /* margin:auto; */
-  top: 0;
-  left: 0;
+  top: 120px;
+  right: 140px;
 }
 .printer-body{
   background-color:#ffffa8;

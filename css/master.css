@@ -8,7 +8,6 @@ body {
   background-color: #FF931E;
   width: 100%;
 }
-
 .logo {
   max-height: 8vh;
   margin: 2vh;
@@ -53,7 +52,7 @@ li {
   margin: 0;
   position: relative;
   top: 12%;
-  left: 10%;
+  left: 11%;
   background-color: #0e79b2;
   display: block;
   min-width: 650px;
@@ -79,22 +78,6 @@ li {
   background-color: #191923;
   border: 0px;
   color: #afafaf;
-}
-#scrollPrompt {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  /* bottom: -21vh; */
-  background-color: #ff931e;
-  height: 6%;
-  text-align: center;
-  font-size: 1.2em;
-  padding-bottom: 3px;
-}
-#scrollPrompt > p {
-  padding: 1%;
-  margin: auto;
-  font-weight: bold;
 }
 .aboutUs {
   padding: 0px;
@@ -178,4 +161,20 @@ li {
 }
 .backgroundBlend {
   background-blend-mode:luminosity;
+}
+#scrollPrompt {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  /* bottom: -21vh; */
+  background-color: #ff931e;
+  height: 6%;
+  text-align: center;
+  font-size: 1.2em;
+  padding-bottom: 3px;
+}
+#scrollPrompt > p {
+  padding: 1%;
+  margin: auto;
+  font-weight: bold;
 }
