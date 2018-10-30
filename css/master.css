@@ -47,30 +47,79 @@ li {
 }
 .gridContainer {
   display: grid;
-  grid-template-rows: 350px 350px 350px;
-  grid-gap: 8px;
-}
-#img-1 {
-  background-image: url('../img/conveniencePhoto.jpg');
-  background-repeat:space;
-  background-color: #FF931E;
-  background-blend-mode:luminosity;
-  background-size: cover;
-  background-position: 50% 85%;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-gap: 50px;
 }
 .photoOverlay {
   background-color: gray;
-  opacity: 0.5;
+  opacity: 0.4;
   padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
 }
-.photoOverlay>h3 {
+#img-1 {
+  background-image: url('../img/conveniencePhoto.jpg');
+  background-repeat:space;
+  background-color: #FF931E;
+  background-size: cover;
+  background-position: 50% 85%;
+}
+#overlay-1>h3 {
   color: white;
   font-family: Lowvetica;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
   padding-left: 70%;
+}
+#img-2 {
+  background-image: url('../img/efficiencyPhoto.jpg');
+  background-repeat:space;
+  background-color: #FF931E;
+  background-position: 73% 59%;
+}
+#overlay-2 {
+  background-color: #cea589;
+}
+#overlay-2>h3 {
+  color: white;
+  font-family: Lowvetica;
+  margin: 0px;
+  font-size: 4em;
+  padding-top: 2vh;
+  padding-left: 8%;
+}
+#img-3 {
+  background-image: url('../img/partnershipPhoto.jpg');
+  background-repeat:space;
+  background-color: #FF931E;
+  background-position: 31% 33%;
+  background-size: 110%;
+}
+#overlay-3>h3 {
+  color: white;
+  font-family: Lowvetica;
+  margin: 0px;
+  font-size: 4em;
+  padding-top: 2vh;
+  padding-left: 70%;
+}
+#img-4 {
+  background-image: url('../img/productivityPhoto.jpg');
+  background-repeat:space;
+  background-color: #FF931E;
+  background-position: 21% 53%;
+  background-size: 100%;
+}
+#overlay-4>h3 {
+  color: white;
+  font-family: Lowvetica;
+  margin: 0px;
+  font-size: 4em;
+  padding-top: 2vh;
+  padding-left: 8%;
+}
+.backgroundBlend {
+  background-blend-mode:luminosity;
 }
