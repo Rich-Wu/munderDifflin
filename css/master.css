@@ -43,6 +43,7 @@ li {
   display: inline;
 }
 .landing {
+  position: sticky;
   margin: 0;
   background-color: #fbfef9;
   background-size: cover;
@@ -55,16 +56,17 @@ li {
   left: 10%;
   background-color: #0e79b2;
   display: block;
-  width: 50%;
-  height: 70%;
+  min-width: 650px;
+  width: 650px;
+  min-height: 408px;
   font-family: "dejavu sans", sans-serif;
   color: #fbfef9;
   font-weight: lighter;
   text-align: center;
 }
 #line {
-  margin: 50px auto;
-  width: 70%;
+  margin: 40px auto;
+  width: 65%;
 }
 .CTA > h2 {
   font-weight: lighter;
@@ -79,12 +81,15 @@ li {
   color: #afafaf;
 }
 #scrollPrompt {
-  position: relative;
-  bottom: -21vh;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  /* bottom: -21vh; */
   background-color: #ff931e;
   height: 6%;
   text-align: center;
   font-size: 1.2em;
+  padding-bottom: 3px;
 }
 #scrollPrompt > p {
   padding: 1%;
@@ -101,6 +106,7 @@ li {
   grid-gap: 50px;
 }
 .photoOverlay {
+  z-index: -1;
   background-color: gray;
   opacity: 0.4;
   padding: 0;
