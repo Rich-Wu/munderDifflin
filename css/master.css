@@ -14,11 +14,11 @@ body {
   margin: 2vh;
   margin-left: 50px;
   display: inline;
-  border: 2px solid #222;
+  border: 2px solid #000;
 }
 button {
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight:700;
   font-size: 1.7em;
   font-family: Lowvetica, sans-serif;
   border-radius: 2px;
@@ -26,7 +26,7 @@ button {
   padding: 0.7em 0.8em;
   border: 0px;
   height: 8vh;
-  color: #1d1d1d;
+  color: #000;
 }
 button:hover {
   color: #808080;
@@ -44,26 +44,39 @@ li {
 }
 .landing {
   margin: 0;
-  background-color: #9fcaca;
+  background-color: #fbfef9;
   background-size: cover;
   height: 87vh;
 }
-form {
+.CTA {
   margin: 0;
   position: relative;
   top: 12%;
   left: 10%;
-  background-color: #242f80;
+  background-color: #0e79b2;
   display: block;
   width: 50%;
   height: 70%;
+  font-family: "dejavu sans", sans-serif;
+  color: #fbfef9;
+  font-weight: lighter;
+  text-align: center;
 }
-form > h2 {
+#line {
+  margin: 50px auto;
+  width: 70%;
+}
+.CTA > h2 {
+  font-weight: lighter;
   margin: 0px;
   padding: 5px;
-  color: white;
-  font-family: Impact, Charcoal, sans-serif;
-  text-align: center;
+  Letter-spacing: 1px;
+}
+#customerTrigger {
+  border-radius: 0;
+  background-color: #191923;
+  border: 0px;
+  color: #afafaf;
 }
 #scrollPrompt {
   position: relative;
