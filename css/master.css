@@ -213,3 +213,19 @@ li {
   margin: auto;
   font-weight: bold;
 }
+#returnPrompt {
+  position: fixed;
+  width: 100%;
+  bottom: -10vh;
+  /* bottom: -21vh; */
+  background-color: #ff931e;
+  height: 6%;
+  text-align: center;
+  font-size: 1.2em;
+  padding-bottom: 3px;
+}
+#returnPrompt > p {
+  padding: 1%;
+  margin: auto;
+  font-weight: bold;
+}
