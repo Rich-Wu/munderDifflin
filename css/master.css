@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: Lowvetica, sans-serif;
 }
 .topnav {
   position:relative;
@@ -7,6 +8,7 @@ body {
   background-color: #FF931E;
   width: 100%;
 }
+
 .logo {
   max-height: 8vh;
   margin: 2vh;
@@ -18,7 +20,7 @@ button {
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 1.7em;
-  font-family: Lowvetica;
+  font-family: Lowvetica, sans-serif;
   border-radius: 2px;
   background-color: #FF931E;
   padding: 0.7em 0.8em;
@@ -35,11 +37,46 @@ ul {
   float: right;
   list-style-type: none;
   display: inline;
-  margin-right: 10px;
 }
 li {
   padding-left: 1vw;
   display: inline;
+}
+.landing {
+  margin: 0;
+  background-color: #9fcaca;
+  background-size: cover;
+  height: 87vh;
+}
+form {
+  margin: 0;
+  position: relative;
+  top: 12%;
+  left: 10%;
+  background-color: #242f80;
+  display: block;
+  width: 50%;
+  height: 70%;
+}
+form > h2 {
+  margin: 0px;
+  padding: 5px;
+  color: white;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+}
+#scrollPrompt {
+  position: relative;
+  bottom: -21vh;
+  background-color: #ff931e;
+  height: 6%;
+  text-align: center;
+  font-size: 1.2em;
+}
+#scrollPrompt > p {
+  padding: 1%;
+  margin: auto;
+  font-weight: bold;
 }
 .aboutUs {
   padding: 0px;
@@ -47,7 +84,7 @@ li {
 }
 .gridContainer {
   display: grid;
-  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-rows: 200px 200px 200px 200px;
   grid-gap: 50px;
 }
 .photoOverlay {
@@ -67,7 +104,7 @@ li {
 }
 #overlay-1>h3 {
   color: white;
-  font-family: Lowvetica;
+  font-family: Lowvetica, sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
@@ -84,7 +121,7 @@ li {
 }
 #overlay-2>h3 {
   color: white;
-  font-family: Lowvetica;
+  font-family: Lowvetica, sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
@@ -99,7 +136,7 @@ li {
 }
 #overlay-3>h3 {
   color: white;
-  font-family: Lowvetica;
+  font-family: Lowvetica, sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
@@ -114,7 +151,7 @@ li {
 }
 #overlay-4>h3 {
   color: white;
-  font-family: Lowvetica;
+  font-family: Lowvetica, sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
