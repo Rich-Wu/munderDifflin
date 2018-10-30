@@ -82,6 +82,7 @@ li {
 .aboutUs {
   padding: 0px;
   padding-top: 8px;
+  margin-bottom: 20px;
 }
 .gridContainer {
   display: grid;
@@ -161,6 +162,40 @@ li {
 }
 .backgroundBlend {
   background-blend-mode:luminosity;
+}
+.contactUs {
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 10px;
+  background-color: #ff931E;
+}
+.contactGridContainer {
+  padding: auto;
+  display: inline-grid;
+  grid-template: 50px 150px 150px/ 300px 300px;
+  font-family: "Dejavu sans", sans-serif;
+  padding-left: 29%;
+}
+.contactGridContainer h3 {
+  text-align: center;
+}
+.contactGridContainer h4 {
+  text-align: center;
+  margin-bottom: 3px;
+}
+.contactGridContainer h6{
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+#contact-1 {
+  grid-column: 1 / span 2;
+}
+.contactGridContainer p {
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+#contact-2 {
+  grid-row: 2 / span 2;
 }
 #scrollPrompt {
   position: fixed;
