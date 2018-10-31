@@ -62,9 +62,9 @@ li {
   height: 87vh;
 }
 .CTA {
-  margin-top: 18%;
-  margin-right: -13%;
-  margin-left: auto;
+  margin-top: 9%;
+  margin-right: auto;
+  margin-left: 15%;
   margin-bottom: auto;
   /* position: relative;
   top: 15vh;
@@ -96,6 +96,7 @@ li {
   color: #afafaf;
   padding: 1em;
   cursor: pointer;
+  padding-bottom: 1.5em;
 }
 .aboutUs {
   padding: 0px;
