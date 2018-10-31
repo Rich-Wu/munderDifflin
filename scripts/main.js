@@ -25,7 +25,7 @@ function scrollBottom() {
   });
 }
 function infoForm() {
-  console.log('form shows up now');
+  // console.log('form shows up now');
   document.getElementById('greyout').style.visibility = "visible";
   document.getElementById('greyout').style.opacity = ".9";
   document.getElementsByClassName('customerInfo')[0].style.visibility = "visible";
@@ -34,7 +34,7 @@ function infoForm() {
   // }, 200);
 }
 function fadeBack() {
-  console.log('form goes away now');
+  // console.log('form goes away now');
   document.getElementById('greyout').style.visibility = "hidden";
   document.getElementById('greyout').style.opacity = "0";
   document.getElementsByClassName('customerInfo')[0].style.visibility = "hidden";
@@ -50,3 +50,6 @@ for (i=0;i<infoButtons.length;i++) {
   infoButtons[i].addEventListener('click', infoForm);
 }
 document.getElementById('greyout').addEventListener('click', fadeBack);
+
+console.log(window.innerHeight);
+console.log(window.innerWidth);
