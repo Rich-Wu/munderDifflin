@@ -53,36 +53,34 @@ li {
   display: inline;
 }
 .landing {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   /* position: sticky; */
   margin: auto;
   background-color: #fbfef9;
   background-image: url('../img/bgPhoto.jpg');
-  background-position: 50% 50%;
+  background-position: 25% 100%;
   background-clip:border-box;
   height: 87vh;
 }
 .CTA {
-  margin-top: 9%;
+  /* margin-top: 9%;
   margin-right: auto;
   margin-left: 15%;
-  margin-bottom: auto;
-  /* position: relative;
-  top: 15vh;
-  left: 11%; */
+  margin-bottom: auto; */
+  position: absolute;
+  top: 22%;
+  left: 15vw;
   background-color: #0e79b2;
   display: inline-block;
   min-width: 650px;
-  width: 650px;
-  height: 26em;
+  width: 600px;
+  height: 23em;
   font-family: "dejavu sans", sans-serif;
   color: #fbfef9;
   font-weight: lighter;
   text-align: center;
 }
 #line {
-  margin: 40px auto;
+  margin: 30px auto;
   width: 65%;
 }
 .CTA > h2 {
