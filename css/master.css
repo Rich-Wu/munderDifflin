@@ -2,9 +2,14 @@ body {
   margin: 0px;
   font-family: Lowvetica, sans-serif;
 }
-.greyout {
+#greyout {
+  position: absolute;
+  top:0;
   background-color: grey;
-  opacity: 1;
+  opacity: 0;
+  width: 100%;
+  z-index: -1;
+  transition: opacity .5s;
 }
 .topnav {
   position:relative;

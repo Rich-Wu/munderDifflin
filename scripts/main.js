@@ -24,9 +24,24 @@ function scrollBottom() {
     behavior: "smooth"
   });
 }
+function infoForm() {
+  console.log('form shows up now');
+  document.getElementById('greyout').style.zIndex = "3";
+  document.getElementById('greyout').style.opacity = ".9";
+}
+function fadeBack() {
+  console.log('form goes away now');
+  document.getElementById('greyout').style.zIndex = "-1";
+  document.getElementById('greyout').style.opacity = "0";
+}
 
 window.addEventListener('scroll',returnBar);
 document.getElementById('returnPrompt').addEventListener('click',scrollTop);
 document.getElementById('aboutUsLink').addEventListener('click', moveTo);
 document.getElementById('contactUsLink').addEventListener('click', scrollBottom);
-document.getElementById('overlay-1').addEventListener('mouseover', convenience);
+document.getElementById('greyout').style.height = document.body.scrollHeight+'px';
+let infoButtons = document.getElementsByClassName('moreInfo');
+for (i=0;i<infoButtons.length;i++) {
+  infoButtons[i].addEventListener('click', infoForm);
+}
+document.getElementById('greyout').addEventListener('click', fadeBack);
