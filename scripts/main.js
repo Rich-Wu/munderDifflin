@@ -28,11 +28,15 @@ function infoForm() {
   console.log('form shows up now');
   document.getElementById('greyout').style.zIndex = "3";
   document.getElementById('greyout').style.opacity = ".9";
+  window.setTimeout(function delayShow() {
+    document.getElementsByClassName('customerInfo')[0].style.zIndex = "4";
+  }, 200);
 }
 function fadeBack() {
   console.log('form goes away now');
   document.getElementById('greyout').style.zIndex = "-1";
   document.getElementById('greyout').style.opacity = "0";
+  document.getElementsByClassName('customerInfo')[0].style.zIndex = "-1";
 }
 
 window.addEventListener('scroll',returnBar);
