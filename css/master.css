@@ -8,8 +8,9 @@ body {
   background-color: grey;
   opacity: 0;
   width: 100%;
-  z-index: -1;
   transition: opacity .5s;
+  visibility: hidden;
+  z-index: 3;
 }
 .topnav {
   position:relative;
@@ -286,6 +287,7 @@ li {
   background-color: gray;
 } */
 .customerInfo {
+  visibility: hidden;
   display: block;
   top: 30%;
   left: 44%;
@@ -293,7 +295,6 @@ li {
   padding: 10px 18px;
   font-family: "Dejavu sans", sans-serif;
   background-color: gray;
-  z-index: -1;
 }
 input {
   border-radius: 1px;
