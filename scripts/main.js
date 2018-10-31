@@ -51,5 +51,10 @@ for (i=0;i<infoButtons.length;i++) {
 }
 document.getElementById('greyout').addEventListener('click', fadeBack);
 
-console.log(window.innerHeight);
-console.log(window.innerWidth);
+document.getElementsByTagName('ul')[0].children[1].addEventListener('click', function doNotEnter() {
+  alert('Construction in Progress');
+});
+
+document.getElementsByTagName('ul')[0].children[2].addEventListener('click', function doNotEnter() {
+  alert('Construction in Progress');
+});
