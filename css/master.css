@@ -2,6 +2,10 @@ body {
   margin: 0px;
   font-family: Lowvetica, sans-serif;
 }
+.greyout {
+  background-color: grey;
+  opacity: 1;
+}
 .topnav {
   position:relative;
   min-height: 12vh;
@@ -26,6 +30,7 @@ button {
   border: 0px;
   height: 8vh;
   color: #000;
+  cursor: pointer;
 }
 button:hover {
   color: #808080;
