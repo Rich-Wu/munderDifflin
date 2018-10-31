@@ -58,7 +58,9 @@ li {
   /* position: sticky; */
   margin: auto;
   background-color: #fbfef9;
-  background-size: cover;
+  background-image: url('../img/bgPhoto.jpg');
+  background-position: 50% 50%;
+  background-clip:border-box;
   height: 87vh;
 }
 .CTA {
