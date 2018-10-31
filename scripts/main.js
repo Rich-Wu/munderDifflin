@@ -17,3 +17,12 @@ function scrollTop() {
     behavior: "smooth"
   });
 }
+
+document.getElementById('aboutUsLink').addEventListener('click', moveTo);
+
+function moveTo() {
+  window.scrollTo({
+    top: window.innerHeight,
+    behavior: "smooth"
+  });
+}

@@ -186,6 +186,7 @@ li {
 .contactGridContainer h6{
   margin-bottom: 3px;
   margin-top: 4px;
+  margin-left: 5em;
 }
 #contact-1 {
   grid-column: 1 / span 2;
@@ -193,9 +194,13 @@ li {
 .contactGridContainer p {
   margin-top: 1px;
   margin-bottom: 3px;
+  margin-left: 3em;
 }
 #contact-2 {
   grid-row: 2 / span 2;
+}
+#contact-4 {
+  padding-top: 1em;
 }
 #scrollPrompt {
   position: fixed;
@@ -207,6 +212,7 @@ li {
   text-align: center;
   font-size: 1.2em;
   padding-bottom: 3px;
+  cursor: context-menu;
 }
 #scrollPrompt > p {
   padding: 1%;
@@ -223,6 +229,7 @@ li {
   text-align: center;
   font-size: 1.2em;
   padding-bottom: 3px;
+  cursor: pointer;
 }
 #returnPrompt > p {
   padding: 1%;
