@@ -288,14 +288,16 @@ li {
   background-color: gray;
 } */
 .customerInfo {
-  visibility: hidden;
   display: block;
   top: 30%;
   left: 44%;
   position: absolute;
   padding: 10px 18px;
   font-family: "Dejavu sans", sans-serif;
-  background-color: gray;
+  background-color: #3d4756;
+  z-Index: 4;
+  visibility: hidden;
+  color: white;
 }
 input {
   border-radius: 1px;
@@ -308,7 +310,7 @@ input[type='submit'] {
   padding: 8px 20px;
   border-radius: 3px;
   color: white;
-  background-color: #7000ff;
+  background-color: #0a801f;
   font-weight: bold;
   font-family: Helvetica;
   border: 0px;
@@ -316,5 +318,11 @@ input[type='submit'] {
   font-size: 1.3em;
 }
 input[type='submit']:hover {
-  background-color: #7d2be6;
+  background-color: #0f9828;
+}
+.customerInfo h4 {
+  text-align: center;
+}
+label {
+  padding-left: 40px;
 }

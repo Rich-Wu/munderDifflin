@@ -28,10 +28,10 @@ function infoForm() {
   console.log('form shows up now');
   document.getElementById('greyout').style.visibility = "visible";
   document.getElementById('greyout').style.opacity = ".9";
-  window.setTimeout(function delayShow() {
-    document.getElementsByClassName('customerInfo')[0].style.visiblity = "visible";
-  }, 200);
-  document.getElementsByClassName('customerInfo')[0].style.zIndex = "4";
+  document.getElementsByClassName('customerInfo')[0].style.visibility = "visible";
+  // window.setTimeout(function delayShow() {
+  //   document.getElementsByClassName('customerInfo')[0].style.visiblity = "visible";
+  // }, 200);
 }
 function fadeBack() {
   console.log('form goes away now');
