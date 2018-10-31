@@ -94,7 +94,7 @@ li {
 .aboutUs {
   padding: 0px;
   padding-top: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 #gridContainer {
   display: grid;
@@ -122,8 +122,14 @@ li {
   margin: 0;
   height: 200px;
   width: 98.9vw;
-  transition: height 1s ease-in-out, width 1s ease-in-out, opacity 1s ease;
+  transition: opacity 1s ease;
   z-index: 0;
+}
+.imageRow h4 {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1em;
 }
 #img-1 {
   background-image: url('../img/conveniencePhoto.jpg');
@@ -132,7 +138,7 @@ li {
   background-size: cover;
   background-position: 50% 85%;
 }
-#overlay-1>h3 {
+#overlay-1 > h3 {
   color: white;
   font-family: Lowvetica, sans-serif;
   margin: 0px;
@@ -141,7 +147,8 @@ li {
   padding-top: 2vh;
   padding-left: 70%;
 }
-#overlay-1 {
+.photoOverlayR:hover, .photoOverlayL:hover {
+  opacity: 0.9;
 }
 #img-2 {
   background-image: url('../img/efficiencyPhoto.jpg');
@@ -224,7 +231,6 @@ li {
 .contactGridContainer p {
   margin-top: 1px;
   margin-bottom: 3px;
-  /* margin-left: 3em; */
   text-align: center;
 }
 #contact-2 {
