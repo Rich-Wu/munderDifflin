@@ -1,7 +1,7 @@
 window.addEventListener('scroll',returnBar);
 
 function returnBar() {
-  if (window.scrollY + window.innerHeight == document.body.scrollHeight) {
+  if (window.scrollY + (1.05 * window.innerHeight) > document.body.scrollHeight) {
     document.getElementById('returnPrompt').style.bottom = '0';
   }
   if (window.scrollY == 0) {
