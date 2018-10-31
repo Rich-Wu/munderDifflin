@@ -85,19 +85,34 @@ li {
   padding-top: 8px;
   margin-bottom: 20px;
 }
-.gridContainer {
+#gridContainer {
   display: grid;
   grid-template-rows: 200px 200px 200px 200px;
   grid-gap: 50px;
 }
-.photoOverlay {
-  z-index: -1;
+.photoOverlayR {
+  position: relative;
   background-color: gray;
-  opacity: 0.4;
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: height 1s ease-in-out, width 1s ease-in-out, opacity 1s ease;
+  z-index: 0;
+}
+.photoOverlayL {
+  position: relative;
+  background-color: gray;
+  opacity: 0.5;
   padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
+  transition: height 1s ease-in-out, width 1s ease-in-out, opacity 1s ease;
+  z-index: 0;
 }
 #img-1 {
   background-image: url('../img/conveniencePhoto.jpg');
@@ -111,6 +126,7 @@ li {
   font-family: Lowvetica, sans-serif;
   margin: 0px;
   font-size: 4em;
+  position: relative;
   padding-top: 2vh;
   padding-left: 70%;
 }
@@ -195,7 +211,8 @@ li {
 .contactGridContainer p {
   margin-top: 1px;
   margin-bottom: 3px;
-  margin-left: 3em;
+  /* margin-left: 3em; */
+  text-align: center;
 }
 #contact-2 {
   grid-row: 2 / span 2;

@@ -35,3 +35,9 @@ function scrollBottom() {
     behavior: "smooth"
   });
 }
+
+document.getElementById('overlay-1').addEventListener('mouseover', convenience);
+
+function convenience() {
+  // document.getElementById('gridContainer').style.gridTemplateRows = '300px 200px 200px 200px';
+}
