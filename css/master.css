@@ -78,6 +78,7 @@ li {
   background-color: #191923;
   border: 0px;
   color: #afafaf;
+  cursor: pointer;
 }
 .aboutUs {
   padding: 0px;

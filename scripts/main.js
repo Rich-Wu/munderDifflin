@@ -26,3 +26,12 @@ function moveTo() {
     behavior: "smooth"
   });
 }
+
+document.getElementById('contactUsLink').addEventListener('click', scrollBottom);
+
+function scrollBottom() {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: "smooth"
+  });
+}
