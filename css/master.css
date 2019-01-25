@@ -1,9 +1,14 @@
+@font-face {
+  font-family: 'Lowvetica';
+  src: url(../fonts/Lowvetica.ttf) format('truetype');
+}
+
 a {
   text-decoration: none;
 }
 body {
   margin: 0px;
-  font-family: Lowvetica, sans-serif;
+  font-family: 'Lowvetica', sans-serif;
 }
 #greyout {
   position: absolute;
@@ -32,7 +37,7 @@ button {
   letter-spacing: 2px;
   font-weight:700;
   font-size: 1.7em;
-  font-family: Lowvetica, sans-serif;
+  font-family: 'Lowvetica', sans-serif;
   border-radius: 2px;
   background-color: #FF931E;
   padding: 0.7em 0.8em;
@@ -150,7 +155,7 @@ li {
 }
 #overlay-1 > h3 {
   color: white;
-  font-family: Lowvetica, sans-serif;
+  font-family: 'Lowvetica', sans-serif;
   margin: 0px;
   font-size: 4em;
   position: relative;
@@ -171,7 +176,7 @@ li {
 }
 #overlay-2>h3 {
   color: white;
-  font-family: Lowvetica, sans-serif;
+  font-family: 'Lowvetica', sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
@@ -186,7 +191,7 @@ li {
 }
 #overlay-3>h3 {
   color: white;
-  font-family: Lowvetica, sans-serif;
+  font-family: 'Lowvetica', sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
@@ -201,7 +206,7 @@ li {
 }
 #overlay-4>h3 {
   color: white;
-  font-family: Lowvetica, sans-serif;
+  font-family: 'Lowvetica', sans-serif;
   margin: 0px;
   font-size: 4em;
   padding-top: 2vh;
